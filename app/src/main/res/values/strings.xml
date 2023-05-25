@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">marcos e vivyan</string>
+    <string name="botaoSoma">Soma</string>
+    <string name="resultado">resultado</string>
+    <string name="numero">Digite um número</string>
+    <string name="numero2">Digite outro número</string>
+    <string name="botaoSubtracaco">Subtração</string>
+    <string name="botaomultiplicacao">Multiplicação</string>
+    <string name="botaoDivisao">Divisão</string>
+</resources>

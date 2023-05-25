@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSoma"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="118dp"
+        android:height="48dp"
+        android:text="@string/botaoSoma"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <Button
+        android:id="@+id/btnDivisao"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="118dp"
+        android:height="48dp"
+        android:hint="@string/botaoDivisao"
+        android:text="@string/botaoDivisao"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubtracao" />
+
+    <Button
+        android:id="@+id/btnSubtracao"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="118dp"
+        android:height="48dp"
+        android:hint="@string/botaoSubtracaco"
+        android:text="@string/botaoSubtracaco"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSoma" />
+
+    <Button
+        android:id="@+id/btnMultiplicacao"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="118dp"
+        android:height="48dp"
+        android:hint="@string/botaomultiplicacao"
+        android:text="@string/botaomultiplicacao"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDivisao" />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/numero"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="#8D6E63"
+        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="87dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="200dp"
+        android:hint="@string/resultado"
+        android:textAlignment="center"
+        android:textColorHint="#8D6E63"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSoma" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/numero2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="#8D6E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
